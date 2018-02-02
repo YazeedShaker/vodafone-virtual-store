@@ -1,6 +1,4 @@
 // http://ionicframework.com/docs/theming/
-
-
 // App Global Sass
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These
@@ -14,3 +12,168 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+.page-background {
+    background-color: #e60000;
+}
+
+.scroll-content {
+    overflow: hidden;
+}
+
+.my-grid {
+    padding: 0px;
+    text-align: center;
+}
+
+.my-cols {
+    padding: 0px !important;
+}
+
+.my-btns {
+    background: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: none;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.my-home-btns {
+    background: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: none;
+    width: 150px;
+}
+
+.back-btn {
+    margin-right: 20%;
+}
+
+.my-btns:hover {
+    background-color: none !important;
+}
+
+.button-md:hover:not(.disable-hover) {
+    background: none;
+}
+
+.text-container {
+    text-align: center;
+    color: white;
+    margin-top: 2%;
+}
+
+.page-title {
+    font-weight: 300;
+}
+
+.page-subtitle {
+    font-weight: 300;
+}
+
+.step-number {
+    font-size: 40px;
+    font-weight: bolder !important;
+}
+
+.page-steps-text-container {
+    margin-top: 2%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2mm;
+}
+
+.page-description-text {
+    font-size: 18px;
+}
+
+.center {
+    margin-top: 2%;
+    text-align: -webkit-center;
+}
+
+.loading-wrapper {
+    background-color: color($colors, light, base) !important;
+}
+
+.spinner-crescent circle {
+    stroke: #e60000 !important;
+}
+
+.loading-content {
+    color: #e60000 !important;
+}
+
+.item-radio-checked.item ion-label {
+    color: white;
+}
+
+.radio .radio-checked {
+    border-color: white;
+}
+
+.radio .radio-inner {
+    background-color: white;
+}
+
+.radio .radio-icon {
+    border-color: white;
+}
+
+.item {
+    color: white;
+}
+
+.alert-head {
+    background-color: #e60000;
+}
+
+.alert-sub-title {
+    color: #e60000;
+}
+
+.alert-title{
+    color: color($colors, light, base) !important;
+}
+
+.alert-message {
+    background-color: #e60000;
+    color: color($colors, light, base) !important;
+    overflow: hidden;
+}
+
+.alert-button-group {
+    background-color: #e60000;
+    color: color($colors, light, base) !important;
+    overflow: hidden;
+}
+
+.alert-button {
+    color: color($colors, light, base) !important;
+}
+
+.fab-button{
+    background-color: white;
+    color: #e60000;
+}
+
+.alert-radio-group{
+    border-top: 1px solid #e60000 !important;
+    border-bottom: 1px solid #e60000 !important;
+    background-color: #e60000;
+}
+
+.alert-radio-icon{
+    border-color:white !important;
+}
+
+.alert-radio-inner{
+    background-color: white !important;
+}
+
+[aria-checked=true] .alert-radio-label{
+    color: white !important;
+}

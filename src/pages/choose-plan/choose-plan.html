@@ -1,0 +1,59 @@
+<ion-content class="page-background">
+    <div class="text-container">
+        <h3 class="page-title">VODAFONE SELF SREVICE CENTRE</h3>
+        <h1 class="step-number">STEP 5</h1>
+        <h3 class="page-subtitle">CHOOSE THE RATE PLAN</h3>
+        <div class="page-steps-text-container">
+            <ion-list radio-group no-lines class="choose-plan-list">
+                <ion-grid class="my-grid choose-plan-grid">
+                    <ion-row>
+                        <ion-col class="my-cols">
+                            <ion-item class="choose-plan-item">
+                                <ion-label>CONTROL 40
+                                </ion-label>
+                                <ion-radio item-left value="1" checked></ion-radio>
+                            </ion-item>
+                        </ion-col>
+                        <ion-col class="my-cols">
+                            <ion-item class="choose-plan-item">
+                                <span (click)="showDescription()" class="choose-plan-span">(DESCRIPTION)</span>
+                            </ion-item>
+                        </ion-col>
+                    </ion-row>
+                    <ion-row>
+                        <ion-col class="my-cols">
+                            <ion-item class="choose-plan-item">
+                                <ion-label>CONTROL 80
+                                </ion-label>
+                                <ion-radio item-left value="2"></ion-radio>
+                            </ion-item>
+                        </ion-col>
+                        <ion-col class="my-cols">
+                            <ion-item class="choose-plan-item">
+                                <span (click)="showDescription()" class="choose-plan-span">(DESCRIPTION)</span>
+                            </ion-item>
+                        </ion-col>
+                    </ion-row>
+                    <ion-row>
+                        <ion-col class="my-cols">
+                            <ion-item class="choose-plan-item">
+                                <ion-label>POSTPAID RED
+                                </ion-label>
+                                <ion-radio item-left value="3"></ion-radio>
+                            </ion-item>
+                        </ion-col>
+                        <ion-col class="my-cols">
+                            <ion-item class="choose-plan-item">
+                                <span (click)="showDescription()" class="choose-plan-span">(DESCRIPTION)</span>
+                            </ion-item>
+                        </ion-col>
+                    </ion-row>
+                </ion-grid>
+            </ion-list>
+        </div>
+    </div>
+    <div class="center">
+        <button ion-button class="my-btns back-btn certificate-btn" (click)="goToPreviousPage()">BACK</button>
+        <button ion-button class="my-btns certificate-btn" (click)="goToNextPage()">NEXT</button>
+    </div>
+</ion-content>

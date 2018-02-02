@@ -1,14 +1,18 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding class="page-background">
+  <div id="home-image-container">
+    <img src="assets/imgs/1.jpg" alt="">
+  </div>
+  <ion-grid class="my-grid" id="home-grid">
+    <ion-row>
+      <ion-col class="my-cols">
+        <button ion-button class="my-home-btns" (click)="goToVoiceSim()">NEW VOICE SIM</button>
+      </ion-col>
+      <ion-col class="my-cols">
+        <button ion-button class="my-home-btns" (click)="goToVoiceSim()">NEW DATA SIM</button>
+      </ion-col>
+      <ion-col class="my-cols">
+        <button ion-button class="my-home-btns" (click)="goToBillPage()">PAY BILL</button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
